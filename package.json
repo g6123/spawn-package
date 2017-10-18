@@ -1,0 +1,28 @@
+{
+  "name": "spawn-package",
+  "version": "0.1.0",
+  "description": "Spawns executables registered by `package.json`",
+  "main": "lib/index.js",
+  "scripts": {
+    "prepublishOnly": "gulp build",
+    "test": "gulp test"
+  },
+  "repository": "https://github.com/g6123/spawn-package",
+  "author": "cumul <gg6123@naver.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.1",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "del": "^3.0.0",
+    "eslint": "^4.9.0",
+    "eslint-plugin-import": "^2.7.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "gulp-mocha": "^4.3.1"
+  },
+  "dependencies": {
+    "lodash.isstring": "^4.0.1"
+  }
+}

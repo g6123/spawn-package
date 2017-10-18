@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "../.eslintrc.json"
+  ],
+  "parser": "babel-eslint",
+  "rules": {
+    "comma-dangle": [
+      "error",
+      "always-multiline"
+    ],
+    "semi": [
+      "error",
+      "never"
+    ]
+  }
+}
