@@ -1,0 +1,4 @@
+{
+  "main": "index.js",
+  "bin": "./program.js"
+}
