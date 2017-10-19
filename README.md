@@ -1,5 +1,7 @@
 # spawn-package
 
+[![npm version](https://badge.fury.io/js/spawn-package.svg)](https://badge.fury.io/js/spawn-package)
+
 Spawns executables registered by `package.json`.
 Works with both global and local packages, on any package managers.
 
