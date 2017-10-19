@@ -1,6 +1,6 @@
 {
   "name": "spawn-package",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Spawns executables registered by `package.json`",
   "main": "lib/index.js",
   "scripts": {

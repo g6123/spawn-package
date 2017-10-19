@@ -17,11 +17,11 @@ $ npm install spawn-package
 var spawnPackage = require('spawn-package');
 
 spawnPackage({
-  package: ['gulp'],
+  package: 'gulp',
 });
 
 spawnPackage({
-  package: ['webpack'],
+  package: 'webpack',
   args: ['--env.production'],
 })
 ```
@@ -31,6 +31,7 @@ spawnPackage({
 ### `spawnPackage(options)`
 
 Spawns executables registered by `package.json`.
+Returns instance of [`ChildProcess`](https://nodejs.org/docs/latest/api/child_process.html#child_process_class_childprocess).
 
 #### options.package
 
